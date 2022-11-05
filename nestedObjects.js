@@ -16,3 +16,10 @@ var mySong = {
 var earnings = calcPayout(mySong);
 console.log(earnings);
 printSong(mySong);
+var myPoint = { x: 1, y: 3, z: 9 };
+var user = {
+    id: 1255,
+    username: "catgirl"
+};
+console.log(user.id);
+//user.id = 65165         read only throw error
